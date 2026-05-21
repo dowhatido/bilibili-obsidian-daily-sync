@@ -1,12 +1,6 @@
 ---
 name: bilibili-obsidian-daily-sync
-description: Sync Bilibili favorites into Obsidian notes. Use when user asks to sync B站收藏, summarize B站视频到Obsidian, build bilibili-to-Obsidian workflow, or run daily bilibili sync. Handles subtitle fetching (with known B站 bug workarounds), LLM summarization, and Obsidian note rendering.
-triggers:
-  - "bilibili obsidian sync"
-  - "b站收藏同步"
-  - "bilibili字幕"
-  - "b站视频总结"
-  - "收藏夹同步到obsidian"
+description: Sync Bilibili favorites into Obsidian notes. Triggers: bilibili obsidian sync, b站收藏同步, bilibili字幕, b站视频总结, 收藏夹同步到obsidian. Handles subtitle fetching (with known B站 bug workarounds), Whisper ASR fallback, LLM summarization, and Obsidian note rendering.
 ---
 
 # Bilibili Obsidian Daily Sync
